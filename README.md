@@ -1,4 +1,4 @@
-# CSCI 3320: Data Structures & Algorithms - Programming Assignments
+# Data Structures & Algorithms - Programming Assignments
 
 ## Overview
 
@@ -11,16 +11,17 @@ Modify maximum subsequence sum algorithms to find the minimum subsequence sum, i
 
 ### Algorithms Implemented
 
-**Algorithm 2 - O(n²) Brute Force:**
+Algorithm 2 - O(n²) Brute Force:
 - Nested loop checking all possible subsequences
 
-**Algorithm 3 - O(n log n) Divide and Conquer:**
+Algorithm 3 - O(n log n) Divide and Conquer:
 - Recursive divide-and-conquer approach
 
-**Algorithm 4 - O(n) Dynamic Programming:**
+Algorithm 4 - O(n) Dynamic Programming:
 - Single-pass linear algorithm
 
 ### Performance Analysis
+
 - 10 test runs per input size
 - Input sizes: 100, 200, 400, 800, 1600, 3200, 64000
 - Excel graphs showing execution time vs. input size
@@ -50,17 +51,18 @@ Implement Queue and TwoStacks data structures using singly and doubly linked lis
 
 ### Data Structures Implemented
 
-#### 1. Singly Linked List
+Singly Linked List
 - In-place recursive list reversal
 
-#### 2. Queue (using Singly Linked List)
+Queue (using Singly Linked List)
 
-#### 3. Doubly Linked List
+Doubly Linked List
 - Bidirectional traversal capability
 
-#### 4. TwoStacks (using Doubly Linked List)
+TwoStacks (using Doubly Linked List)
 
 ### Features
+
 - Menu-driven command-line interface
 - 17 different operations
 - Input validation and error handling
@@ -94,12 +96,13 @@ Determine if a continuous sequence of elements in an array sums to zero. The sol
 
 ### Algorithm Implementation
 
-**Hash-Based Solution - O(n):**
+Hash-Based Solution - O(n):
 - Uses prefix sum and hash map
 - Detects zero-sum subarrays in single pass
 - Returns starting and ending indices
 
 ### Algorithm Strategy
+
 - Prefix Sum Calculation: Track cumulative sum trough iteratation
 - Hash Map Storage: Store each prefix sum with its index
 - Zero Detection:
@@ -107,6 +110,7 @@ Determine if a continuous sequence of elements in an array sums to zero. The sol
    - If `current_sum` seen before: subarray between stored index and current index
 
 ### Features
+
 - Random integer generation with configurable ranges (N)
 - Print all numbers when N < 50
 - Formatted output with negative number display
@@ -133,29 +137,30 @@ No, there is no sequence where the sum of the elements equals zero.
 ```
 
 ### Complexity Analysis
+
 - Time Complexity: O(n) - Single pass through array
 - Hash Operations: O(1) - Average case for insertion/lookup
 
 ## Learning Outcomes
 
-### Algorithm Analysis
+Algorithm Analysis
 - Time complexity analysis (Big-O notation)
 
-### Data Structures
+Data Structures
 - Linked list implementations (singly and doubly)
 - Stack and Queue abstractions
 - Pointer manipulation techniques
 
-### Optimization Techniques
+Optimization Techniques
 - Hash-based optimization
 - Divide-and-conquer strategies
 - Dynamic programming principles
 - Prefix sum technique
 
-### Software Engineering
+Software Engineering
 - Menu-driven interface
 - Input validation and error handling
 
 ## Academic Integrity Notice
 
-These assignments were completed as coursework for CSCI 3320. The code is provided for portfolio purposes. Please do not copy or reproduce for academic submissions.
+These assignments were completed as coursework for CSCI 3320: Data Structures & Algorithms. The code is provided for portfolio purposes. Please do not copy or reproduce for academic submissions.
